@@ -29,7 +29,8 @@ Authentication type: Choose SSH public key and provide your key.
 ### Task 2: Configure Disks
 
 In the Disks tab, select Premium SSD as the OS disk type.
-![alt text](<Screenshot 2025-09-11 173717.png>)
+
+![alt text](lab1%20photos/Screenshot%202025-09-11%20173717.png)
 
 --- 
 ### Task 3: Configure Networking
