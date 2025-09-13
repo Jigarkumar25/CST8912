@@ -118,8 +118,7 @@ Wait for the monitoring solution to be provisioned.
 
 - create a new file or folder as a test.
 
-![alt text](<Screenshot 2025-09-11 184416.png>)
-![alt text](lab1%20photos/Screenshot%202025-09-11%20184344.png)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20184416.png)
 
 ---
 ### Task 9. Delete all the resources – clean and delete resources 
