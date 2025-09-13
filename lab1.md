@@ -22,7 +22,7 @@ Size: Select Standard_B1s (1 vCPU, 1 GiB memory).
 
 Authentication type: Choose SSH public key and provide your key.
 
-![alt text](<Screenshot 2025-09-11 173453.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20173453.png)
 
 
 ---
@@ -39,7 +39,8 @@ In the Networking tab, create a new Virtual Network (leave default settings).
 
 Keep default subnet, public IP, and NIC settings.
 
-![alt text](<Screenshot 2025-09-11 174140.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20173453.png)
+
 ---
 
 ### Task 4: Review Additional Settings
@@ -48,7 +49,8 @@ Leave default options for Management, Advanced, and Tags tabs.
 
 Click Review + Create and then Create to deploy the VM.
 
-![alt text](<Screenshot 2025-09-11 174533.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20174533.png)
+
 
 ---
 ### Task 5: Perform Basic VM Operations
@@ -65,7 +67,8 @@ Restart
 
 Delete (optional, end of lab)
 
-![alt text](<Screenshot 2025-09-11 175526.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20175526.png)
+
 ---
 ### Task 6: Create a Log Analytics Workspace
 
@@ -83,7 +86,8 @@ Enter a workspace name.
 
 Click Review + Create, then Create.
 
-![alt text](<Screenshot 2025-09-11 180030.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20180030.png)
+
 ---
 ### Task 7: Connect VM to Log Analytics
 
@@ -95,23 +99,27 @@ Choose Enable monitoring and select the Log Analytics workspace you just created
 
 Wait for the monitoring solution to be provisioned.
 
-![alt text](<Screenshot 2025-09-11 180957.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20180957.png)
+
 ---
 ### Task 8 SSH into the VM
 - Add a task where users must connect to the VM using SSH:
 - Verify the VM is reachable.
 
-![alt text](<Screenshot 2025-09-11 184344.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20184344.png)
+
 
 - Run basic commands (uname -a, top, df -h) to check system health.
 
-![alt text](<Screenshot 2025-09-11 184351.png>)
-![alt text](<Screenshot 2025-09-11 184400.png>)
-![alt text](<Screenshot 2025-09-11 184409.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20184351.png)  
+![alt text](lab1%20photos/Screenshot%202025-09-11%20184400.png)  
+![alt text](lab1%20photos/Screenshot%202025-09-11%20184409.png)  
+
 
 - create a new file or folder as a test.
 
 ![alt text](<Screenshot 2025-09-11 184416.png>)
+![alt text](lab1%20photos/Screenshot%202025-09-11%20184344.png)
 
 ---
 ### Task 9. Delete all the resources – clean and delete resources 
