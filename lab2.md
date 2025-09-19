@@ -2,62 +2,62 @@
 
 
 ## Resource Group creation
-Name: CST8912-demo
-Region: West US
-Purpose: keep all networking and VM artifacts in one scope for easy cleanup and cost tracking.
+Name: CST8912-demo<br>
+Region: West US<br>
+Purpose: keep all networking and VM artifacts in one scope for easy cleanup and cost tracking.<br>
 ![alt text](lab2%20photos/1.png)
 
 ## Virtual Networks
-1) VNet0
-West US
-address space:10.0.0.0/24
+1) VNet0<br>
+West US<br>
+address space:10.0.0.0/24<br>
 ![alt text](lab2%20photos/2.png)
 
-2) VNet1
-West US
-address space:10.10.0.0/24
+2) VNet1<br>
+West US<br>
+address space:10.10.0.0/24<br>
 ![alt text](lab2%20photos/4.png)
 
-3) VNet2
-West US 2
-address space:10.20.0.0/24
-![alt text](lab2%20photos/6.png)
+3) VNet2<br>
+West US 2<br>
+address space:10.20.0.0/24<br>
+![alt text](lab2%20photos/6.png)<br>
 peering requires distinct prefixes so Azure can route privately between VNets.
 
 ## Peering configuration 
-1) VNet0
-cst8912_vnet0_to_cst8912_vnet1
-cst8912_vnet0_to_cst8912_vnet2
+1) VNet0<br>
+cst8912_vnet0_to_cst8912_vnet1<br>
+cst8912_vnet0_to_cst8912_vnet2<br>
 ![alt text](lab2%20photos/3.png)
 
-2) VNet1
-cst8912_vnet1_to_cst8912_vnet2
+2) VNet1<br>
+cst8912_vnet1_to_cst8912_vnet2<br>
 ![alt text](lab2%20photos/5.png)
 
-3) VNet2  
-![alt text](lab2%20photos/7.png)
+3) VNet2  <br>
+![alt text](lab2%20photos/7.png)<br>
 
-## VM deployments
-1) VM0  
-VM0 — VNet0 — Private IP: 10.0.0.4 — Public IP: 20.184.137.30
+## VM deployments<br>
+1) VM0  <br>
+VM0 — VNet0 — Private IP: 10.0.0.4 — Public IP: 20.184.137.30<br>
 ![alt text](lab2%20photos/8.png)
 
-2) VM1  
-VM1 — VNet1 — Private IP: 10.10.0.4 — Public IP: 52.159.248.163
+2) VM1  <br>
+VM1 — VNet1 — Private IP: 10.10.0.4 — Public IP: 52.159.248.163<br>
 ![alt text](lab2%20photos/9.png)
 
-3) VM2  
-VM2 — VNet2 — Private IP: 10.20.0.4 — Public IP: 4.155.25.249
+3) VM2  <br>
+VM2 — VNet2 — Private IP: 10.20.0.4 — Public IP: 4.155.25.249<br>
 ![alt text](lab2%20photos/10.png)
 
-## PowerShell Test-NetConnection results
-1) VM0 → VM1 & VM0 → VM2
-Test-NetConnection -ComputerName 10.10.0.4 -Port 3389 -InformationLevel Detailed
-Test-NetConnection -ComputerName 10.20.0.4 -Port 3389 -InformationLevel Detailed
+## PowerShell Test-NetConnection results<br>
+1) VM0 → VM1 & VM0 → VM2<br>
+Test-NetConnection -ComputerName 10.10.0.4 -Port 3389 -InformationLevel Detailed<br>
+Test-NetConnection -ComputerName 10.20.0.4 -Port 3389 -InformationLevel Detailed<br>
 ![alt text](lab2%20photos/11.png)
 
-2) VM1 → VM2
-Test-NetConnection -ComputerName 10.20.0.4 -Port 3389 -InformationLevel Detailed
+2) VM1 → VM2<br>
+Test-NetConnection -ComputerName 10.20.0.4 -Port 3389 -InformationLevel Detailed<br>
 ![alt text](lab2%20photos/12.png)
 
 
@@ -78,6 +78,7 @@ Global VNet peering provides cross-region connectivity without requiring public 
 
 
 - Resiliency: Global peering supports redundant communication paths between regions, enhancing business continuity and disaster recovery strategies.
+
 
 
 
