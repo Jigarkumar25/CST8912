@@ -5,39 +5,43 @@
 ![alt text](lab2 photos/1.png)
 
 ## Virtual Networks
-1) VNet0
- ![alt text](lab2 photos/2.png)
-2) VNet1
- ![alt text](lab2 photos/4.png)
-3)VNet2
- ![alt text](lab2 photos/6.png)
+## Virtual Networks
+1) VNet0  
+![alt text](lab2%20photos/2.png)
 
+2) VNet1  
+![alt text](lab2%20photos/4.png)
+
+3) VNet2  
+![alt text](lab2%20photos/6.png)
 
 ## Peering configuration 
-1) VNet0
-![alt text](lab2 photos/3.png)
-2) VNet1
-![alt text](lab2 photos/5.png) 
-3)VNet2
-![alt text](lab2 photos/7.png) 
+1) VNet0  
+![alt text](lab2%20photos/3.png)
 
+2) VNet1  
+![alt text](lab2%20photos/5.png)
 
+3) VNet2  
+![alt text](lab2%20photos/7.png)
 
 ## VM deployments
-1) VMm0
-![alt text](lab2 photos/8.png)
-2) VM1
-![alt text](lab2 photos/9.png)
-3) VM2
-![alt text](lab2 photos/10.png)
+1) VM0  
+![alt text](lab2%20photos/8.png)
 
+2) VM1  
+![alt text](lab2%20photos/9.png)
+
+3) VM2  
+![alt text](lab2%20photos/10.png)
 
 ## PowerShell Test-NetConnection results
-1) VM0 -> VM1 & VM0 --> VM2
-![alt text](lab2 photos/11.png)
+1) VM0 → VM1 & VM0 → VM2  
+![alt text](lab2%20photos/11.png)
 
-2) VM1 -> VM2
-![alt text](lab2 photos/12.png)
+2) VM1 → VM2  
+![alt text](lab2%20photos/12.png)
+
 
 ## Findings & Analysis
 
@@ -56,3 +60,4 @@ Global VNet peering provides cross-region connectivity without requiring public 
 
 
 - Resiliency: Global peering supports redundant communication paths between regions, enhancing business continuity and disaster recovery strategies.
+
