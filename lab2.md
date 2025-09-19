@@ -2,9 +2,8 @@
 
 
 ## Resource Group creation
-![alt text](lab2 photos/1.png)
+![alt text](lab2%20photos/1.png)
 
-## Virtual Networks
 ## Virtual Networks
 1) VNet0  
 ![alt text](lab2%20photos/2.png)
@@ -60,4 +59,5 @@ Global VNet peering provides cross-region connectivity without requiring public 
 
 
 - Resiliency: Global peering supports redundant communication paths between regions, enhancing business continuity and disaster recovery strategies.
+
 
