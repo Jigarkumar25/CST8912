@@ -2,42 +2,42 @@
 
 
 ## Resource Group creation
-![alt text](1.png)
+![alt text](lab2 photos/1.png)
 
 ## Virtual Networks
 1) VNet0
- ![alt text](2.png)
+ ![alt text](lab2 photos/2.png)
 2) VNet1
-     ![alt text](4.png)
+ ![alt text](lab2 photos/4.png)
 3)VNet2
- ![alt text](6.png)
+ ![alt text](lab2 photos/6.png)
 
 
 ## Peering configuration 
 1) VNet0
-![alt text](3.png)
+![alt text](lab2 photos/3.png)
 2) VNet1
-    ![alt text](5.png) 
+![alt text](lab2 photos/5.png) 
 3)VNet2
-![alt text](7.png) 
+![alt text](lab2 photos/7.png) 
 
 
 
 ## VM deployments
 1) VMm0
-![alt text](8.png)
+![alt text](lab2 photos/8.png)
 2) VM1
-![alt text](9.png)
+![alt text](lab2 photos/9.png)
 3) VM2
-![alt text](10.png)
+![alt text](lab2 photos/10.png)
 
 
 ## PowerShell Test-NetConnection results
 1) VM0 -> VM1 & VM0 --> VM2
-![alt text](11.png)
+![alt text](lab2 photos/11.png)
 
 2) VM1 -> VM2
-![alt text](12.png)
+![alt text](lab2 photos/12.png)
 
 ## Findings & Analysis
 
@@ -53,5 +53,6 @@ Global VNet peering provides cross-region connectivity without requiring public 
 - Performance: Traffic flows through Microsoft’s high-speed, low-latency private backbone, ensuring reliable and efficient communication across regions.
 
 - Security: Data never traverses the public internet, reducing exposure to threats such as man-in-the-middle attacks. This improves compliance with organizational security standards.
+
 
 - Resiliency: Global peering supports redundant communication paths between regions, enhancing business continuity and disaster recovery strategies.
