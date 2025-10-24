@@ -1,4 +1,4 @@
-# CST8912 – Lab5
+# CST8912 – Lab6
 **Student:** Jigarkumar Patel <br> **Course:** CST8912 
 
 ---
@@ -127,5 +127,6 @@ This verifies that the VM can access Azure Storage using Azure Private Link with
 ## Step 9 – Clean Up Resources
 
 After successful testing, all resources were deleted to prevent unnecessary usage and costs.
+
 
 
