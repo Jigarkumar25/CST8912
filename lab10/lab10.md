@@ -56,7 +56,7 @@ First I added the trigger **When a blob is added or modified (properties only) V
 
 Then I added a **Condition** to check if the uploaded file size is greater than zero. At first the Logic App failed because the comparison was using the wrong data type. I fixed the error by converting the file size to an integer using the **int()** function and then comparing it with `0`. After this fix the condition worked correctly.
 
-![Condition using int(Size)](pictures/2.1.png)
+![Condition using int(Size)](pictures/2.png)
 
 Inside the **True** condition I added the action **Send an email (V2)**.  
 I entered my email address in the **To** field.  
@@ -65,9 +65,10 @@ In the body I added dynamic values for file name and last modified time.
 
 After saving the Logic App I uploaded a test file to the storage container. The run history shows that the latest execution was successful while the earlier ones had failed due to the condition error.
 
-![Run history succeeded](pictures/2.0.png)
+![Run history succeeded](pictures/2.1.png)
 
 Once the run succeeded I received an email with the subject **New File Uploaded to Storage** and the file name in the message body. This confirms that the storage alert is working correctly.
 
 ![Email received](pictures/2.2.png)
+
 
